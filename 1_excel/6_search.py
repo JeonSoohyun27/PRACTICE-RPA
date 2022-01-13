@@ -1,4 +1,4 @@
-from openpyxl import load_workbook
+from openpyxl import load_workbook # workbook을 불러와줄때
 
 wb = load_workbook("sample.xlsx")
 ws = wb.active
